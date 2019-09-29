@@ -4,11 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RepositoryComponent } from './repository/repository.component';
+import { ShowComponent } from './show/show.component';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RepositoryComponent
+    RepositoryComponent,
+    ShowComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
