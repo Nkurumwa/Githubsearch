@@ -1,0 +1,42 @@
+<!-- <p>repository works!</p> -->
+<link href="https://fonts.googleapis.com/css?family=Cinzel|Libre+Baskerville|Merienda|ZCOOL+XiaoWei" rel="stylesheet">
+
+<div class="container">
+  <div class="">
+      <h2>Repository Searcher!</h2>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <form class="form-group">
+        <input class = "form-control" placeholder="Enter Username" [(ngModel)] = "userName" name = "userName" (keyup) = repoLookup()>
+        <input class = "form-control" placeholder="Enter Repository Name" [(ngModel)] = "repoName" name = "repoName" (keyup) = repoRequest()>
+        <button type="reset" class="btn btn-info">Clear</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="row">
+      <div class="output card col-md-5">
+        <h2>Searched Repository</h2>
+        <h3 appHighlight><strong>{{repo.name}}</strong></h3>
+        <h6><strong>Description: </strong> <em>{{repo.description}}</em></h6>
+        <h6><strong>Forks: </strong> <em>{{repo.forks}}</em></h6>
+        <em>{{repo.forks|forks}}</em>
+        <h6><strong>License: </strong> <em>{{repo.license}}</em></h6>
+        <button class="btn btn-warning"><a [href]="repo.link">Visit Repository Github Page</a></button>
+      </div>
+
+      <div class="output card col-md-7">
+        <h2>All User Repositories</h2>
+          <div *ngFor="let rep of repos.reposArray">
+              <div class="item">
+                <h3 appHighlight><strong>{{rep.name}}</strong></h3>
+                <h6  *ngIf><strong>Description: </strong><em>{{rep.description}}</em></h6>
+                <h6><strong>Language(s): </strong> <em>{{rep.language}}</em></h6>
+                <h6><strong>License: </strong> <em>{{rep.license}}</em></h6>
+                <button type="button" class="btn btn-warning"><a href="{{rep.html_url}}" target="_blank">View on GitHub</a></button>
+              </div>
+            </div>
+      </div>
+    </div>
+</div>
