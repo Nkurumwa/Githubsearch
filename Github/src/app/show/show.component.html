@@ -1,1 +1,29 @@
-<p>show works!</p>
+<!-- <p>show works!</p> -->
+<link href="https://fonts.googleapis.com/css?family=Cinzel|Libre+Baskerville|Merienda|ZCOOL+XiaoWei" rel="stylesheet">
+
+<div class="container-fluid">
+  <div class="">
+      <h2>User Searcher!</h2>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <form class="form-group">
+        <input class = "form-control" placeholder="Enter Username" [(ngModel)] = "userName" name = "userName" (keyup) = userLookup()> 
+        <button type="reset" class="btn btn-info">Clear</button>
+      </form>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <img [src]="user.avatar">
+      </div>
+      <div class="col-md-8">
+        <div class="output card">
+          <h3 appHighlight><strong>{{user.username}}</strong></h3>
+          <h6><strong>Name: </strong> <em>{{user.name}}</em></h6>
+          <h6><strong>Repositories: </strong> <em>{{user.repositories}}</em></h6>
+          <button class="btn btn-warning"><a [href]="user.link">Visit GitHub Page</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

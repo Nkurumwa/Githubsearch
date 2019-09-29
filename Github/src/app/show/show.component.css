@@ -1,0 +1,51 @@
+*{
+    text-align: center;
+}
+
+h2{
+    color: #ffc107;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+input{
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: 'Libre Baskerville', serif;
+}
+
+img{
+    width: 50%;
+    margin: 5%;
+    margin-top: auto;
+    border-radius: 5%;
+}
+
+button, button a, h3{
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: white;
+}
+
+
+h3{
+    padding: 1.5%;
+}
+
+.output{
+    padding: 5%;
+    width: 100%;
+    float: right;
+    box-shadow: 5px 5px 5px grey;
+    font-family: 'Merienda', cursive;
+}
+
+@media only screen and (min-width: 812px) {
+    img{
+        width: 100%;
+    }
+
+    .row{
+        display: flex;
+        justify-content: center;
+    }
+}
