@@ -1,11 +1,11 @@
 // import { Component, OnInit } from '@angular/core';
 
 // @Component({
-//   selector: 'app-show',
-//   templateUrl: './show.component.html',
-//   styleUrls: ['./show.component.css']
+//   selector: 'app-display',
+//   templateUrl: './display.component.html',
+//   styleUrls: ['./display.component.css']
 // })
-// export class ShowComponent implements OnInit {
+// export class DisplayComponent implements OnInit {
 
 //   constructor() { }
 
@@ -14,7 +14,7 @@
 
 // }
 import { Component, OnInit } from '@angular/core';
-import { RepoService } from '../repo-http/repo.service';
+import { ReposService } from '../repos-http/repos.service';
 import { User } from '../user-class/user';
 import { UserService } from '../user-http/user.service';
 import { Router } from '@angular/router';
@@ -24,7 +24,7 @@ import { environment } from '../../environments/environment';
 @Component({
   selector: 'app-display',
   templateUrl: './display.component.html',
-  providers: [RepoService, UserService],
+  providers: [ReposService, UserService],
   styleUrls: ['./display.component.css']
 })
 export class DisplayComponent implements OnInit {
@@ -33,7 +33,7 @@ export class DisplayComponent implements OnInit {
   userName: string;
 
   constructor( private userRequestService: UserService){
-    this.userRequestService.userName = "Nkurumwa";
+    this.userRequestService.userName = "fuaad001";
     this.userRequestService.userRequest();
     this.user = this.userRequestService.user;
   }

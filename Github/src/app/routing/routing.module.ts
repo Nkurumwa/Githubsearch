@@ -1,26 +1,12 @@
-// import { NgModule } from '@angular/core';
-// import { CommonModule } from '@angular/common';
-
-// import { RoutingRoutingModule } from './routing-routing.module';
-
-
-// @NgModule({
-//   declarations: [],
-//   imports: [
-//     CommonModule,
-//     RoutingRoutingModule
-//   ]
-// })
-// export class RoutingModule { }
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
 
-import { ShowComponent } from '../show/show.component'
+import { DisplayComponent } from '../display/display.component'
 import { RepositoryComponent } from '../repository/repository.component'
 
 const routes: Routes = [
-  {path:"show",component:ShowComponent},
+  {path:"display",component:DisplayComponent},
   {path:"repo",component:RepositoryComponent}
 ]
 
@@ -31,5 +17,6 @@ const routes: Routes = [
     RouterModule.forRoot(routes)
   ],
   exports:[RouterModule],
+  // declarations: []
 })
 export class RoutingModule { }

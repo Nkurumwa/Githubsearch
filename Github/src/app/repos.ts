@@ -1,3 +1,3 @@
-export class Repo {
+export class Repos {
     constructor(public reposArray: {}){}
 }

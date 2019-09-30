@@ -1,4 +1,4 @@
-<!-- <p>show works!</p> -->
+<!-- <p>display works!</p> -->
 <link href="https://fonts.googleapis.com/css?family=Cinzel|Libre+Baskerville|Merienda|ZCOOL+XiaoWei" rel="stylesheet">
 
 <div class="container-fluid">
@@ -19,8 +19,11 @@
       <div class="col-md-8">
         <div class="output card">
           <h3 appHighlight><strong>{{user.username}}</strong></h3>
+          <h6><strong>Bio: </strong> <em>{{user.bio}}</em></h6>
           <h6><strong>Name: </strong> <em>{{user.name}}</em></h6>
           <h6><strong>Repositories: </strong> <em>{{user.repositories}}</em></h6>
+          <h6><strong>Followers: </strong> <em>{{user.followers}}</em></h6>
+          <h6><strong>Following: </strong> <em>{{user.following}}</em></h6>
           <button class="btn btn-warning"><a [href]="user.link">Visit GitHub Page</a></button>
         </div>
       </div>
