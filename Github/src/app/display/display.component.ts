@@ -33,7 +33,7 @@ export class DisplayComponent implements OnInit {
   userName: string;
 
   constructor( private userRequestService: UserService){
-    this.userRequestService.userName = "fuaad001";
+    this.userRequestService.userName = "Nkurumwa";
     this.userRequestService.userRequest();
     this.user = this.userRequestService.user;
   }
