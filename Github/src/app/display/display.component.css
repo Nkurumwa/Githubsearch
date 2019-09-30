@@ -4,7 +4,7 @@
 }
 
 h2{
-    color: green;
+    color:black;
     font-family: 'ZCOOL XiaoWei', serif;
 }
 
@@ -23,8 +23,8 @@ img{
 }
 
 button, button a, h3{
-    font-family: 'ZCOOL XiaoWei', serif;
-    color:green;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
 }
 
 
