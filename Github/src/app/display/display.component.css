@@ -1,9 +1,9 @@
-/* *{
+*{
     text-align: center;
 }
 
 h2{
-    color: #ffc107;
+    color: green;
     font-family: 'ZCOOL XiaoWei', serif;
 }
 
@@ -23,7 +23,7 @@ img{
 
 button, button a, h3{
     font-family: 'ZCOOL XiaoWei', serif;
-    color: white;
+    color:green;
 }
 
 
@@ -32,10 +32,10 @@ h3{
 }
 
 .output{
-    padding: 5%;
+    padding: 1.5%;
     width: 100%;
     float: right;
-    box-shadow: 5px 5px 5px grey;
+    box-shadow: 5px 5px 5px blue;
     font-family: 'Merienda', cursive;
 }
 
@@ -48,4 +48,4 @@ h3{
         display: flex;
         justify-content: center;
     }
-} */
+}

@@ -1,7 +1,7 @@
 <link href="https://fonts.googleapis.com/css?family=Cinzel|Libre+Baskerville|Merienda|ZCOOL+XiaoWei" rel="stylesheet">
 
 <div class="container">
-  <div class="">
+  <div class="repo">
       <h2>Repository Searcher!</h2>
   </div>
   <div class="row">
@@ -19,8 +19,6 @@
         <h2>Searched Repository</h2>
         <h3 appHighlight><strong>{{repo.name}}</strong></h3>
         <h6><strong>Description: </strong> <em>{{repo.description}}</em></h6>
-        <!-- <h6><strong>Forks: </strong> <em>{{repo.forks}}</em></h6>
-        <em>{{repo.forks|forks}}</em> -->
         <h6><strong>License: </strong> <em>{{repo.license}}</em></h6>
         <button class="btn btn-warning"><a [href]="repo.link">Visit Repository Github Page</a></button>
       </div>

@@ -49,10 +49,9 @@ export class UserService {
       },
       error=>{
 
-          this.user.avatar = "https://avatars1.githubusercontent.com/u/47349274?v=4"
+          this.user.avatar = "https://avatars0.githubusercontent.com/u/53817543?s=400&u=33d6db21abdaa99d9c65bd6c2a4b242e5749aff5&v=4"
           this.user.username = "Nkurumwa"
           this.user.name = "Ishmael Nkurumwa"
-          // this.user.bio = "Full-Stack Developer \r\nAndroid Developer\r\nCertified Chef\r\nRelationship Officer"
           this.user.repositories = 17
           this.user.link = "https://github.com/Nkurumwa"
 
