@@ -15,7 +15,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Author
 * Ishmael Nkurumwa
 ## Setup/Installation
-* git clone https://github.com/Brian23-eng/GitHub-Search.git to local machine.
+* git clone https://github.com/Nkurumwa/Githubsearch.gitto local machine if you want.
 * cd into a folder called GitHub-Search.
 * Open index.html from your browser.
 ## Technologie Used
