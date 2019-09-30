@@ -1,10 +1,10 @@
 *{
     text-align: center;
-    background-color: turquoise;
+    background-color:lightcoral;
 }
 
 h2{
-    color:green;
+    color:black;
     font-family: 'ZCOOL XiaoWei', serif;
 }
 
@@ -25,7 +25,7 @@ input{
 }
 
 button, button a, h3{
-    color:blueviolet;
+    color:white;
     font-family: 'ZCOOL XiaoWei', serif;
 }
 
