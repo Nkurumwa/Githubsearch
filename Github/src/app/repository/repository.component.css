@@ -3,14 +3,14 @@
 }
 
 h2{
-    color: #ffc107;
+    color:green;
     font-family: 'ZCOOL XiaoWei', serif;
 }
 
 input{
     width: 100%;
-    margin-bottom: 1%;
-    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-top: 2%;
     font-family: 'Libre Baskerville', serif;
 }
 
@@ -18,13 +18,13 @@ input{
     padding: 5%;
     width: 100%;
     float: right;
-    text-align: right;
-    box-shadow: 5px 5px 5px grey;
-    font-family: 'Merienda', cursive;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgb(128, 128, 128);
+    font-family: sans-serif;
 }
 
 button, button a, h3{
-    color: white;
+    color:blueviolet;
     font-family: 'ZCOOL XiaoWei', serif;
 }
 

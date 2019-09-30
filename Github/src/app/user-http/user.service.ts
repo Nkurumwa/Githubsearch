@@ -51,10 +51,10 @@ export class UserService {
 
           this.user.avatar = "https://avatars1.githubusercontent.com/u/47349274?v=4"
           this.user.username = "Nkurumwa"
-          this.user.name = "Hussein Fuaad"
+          this.user.name = "Ishmael Nkurumwa"
           // this.user.bio = "Full-Stack Developer \r\nAndroid Developer\r\nCertified Chef\r\nRelationship Officer"
-          this.user.repositories = 22
-          this.user.link = "https://github.com/fuaad001"
+          this.user.repositories = 17
+          this.user.link = "https://github.com/Nkurumwa"
 
         reject(error);
 
